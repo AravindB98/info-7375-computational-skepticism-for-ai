@@ -1,0 +1,228 @@
+{
+  "course": "INFO 7375",
+  "title": "Computational Skepticism for AI",
+  "term": "fall-2026",
+  "term_basis": "Current semester inferred from 2026-09-06; Canvas supplies official dates.",
+  "pedagogy": [
+    "Predict",
+    "Build It",
+    "Use It",
+    "Ship It",
+    "Verify"
+  ],
+  "language": "Python",
+  "provider": "Claude",
+  "assessments": "ungraded",
+  "assignment_interval_days": 10,
+  "points": {
+    "implementation": 60,
+    "frictional": 10,
+    "github": 10,
+    "relative_quartile": 20
+  },
+  "lessons": [
+    {
+      "lesson": 1,
+      "title": "A claim you can try to break",
+      "path": "lessons/01-skeptics-toolkit/README.md",
+      "reading": "chapters/01-the-skeptics-toolkit.md",
+      "selection": "What I mean by skepticism"
+    },
+    {
+      "lesson": 2,
+      "title": "Confidence has to earn its number",
+      "path": "lessons/02-probability-and-calibration/README.md",
+      "reading": "chapters/02-probability-uncertainty-and-the-confidence-illusion.md",
+      "selection": "chapter reading"
+    },
+    {
+      "lesson": 3,
+      "title": "The missing rows are part of the result",
+      "path": "lessons/03-data-frame-and-provenance/README.md",
+      "reading": "chapters/03-data-validation-reconstructing-the-epistemic-frame-behind-a-dataset.md",
+      "selection": "Reconstructing the epistemic frame — a working procedure"
+    },
+    {
+      "lesson": 4,
+      "title": "Break the shortcut you just built",
+      "path": "lessons/04-robustness-and-shift/README.md",
+      "reading": "chapters/04-robustness-what-understanding-means-when-a-pixel-can-break-the-model.md",
+      "selection": "Prompt sensitivity — the LLM-specific version of this problem"
+    },
+    {
+      "lesson": 5,
+      "title": "A convincing explanation can explain the wrong thing",
+      "path": "lessons/05-explanations-and-counterexamples/README.md",
+      "reading": "chapters/05-model-explainability-distinguishing-explanation-from-the-appearance-of-explanation.md",
+      "selection": "Three words that don't mean the same thing"
+    },
+    {
+      "lesson": 6,
+      "title": "Find the decision that produced the disparity",
+      "path": "lessons/06-bias-in-the-pipeline/README.md",
+      "reading": "chapters/06-bias-where-it-enters-and-who-is-responsible.md",
+      "selection": "chapter reading"
+    },
+    {
+      "lesson": 7,
+      "title": "Choose the criterion before optimizing it",
+      "path": "lessons/07-fairness-and-tradeoffs/README.md",
+      "reading": "chapters/07-fairness-metrics-choosing-a-definition-and-defending-it.md",
+      "selection": "Three definitions"
+    },
+    {
+      "lesson": 8,
+      "title": "The agent said done. Check the state.",
+      "path": "lessons/08-agent-outcomes-and-traces/README.md",
+      "reading": "chapters/08-validating-agentic-ai-when-autonomous-systems-misbehave.md",
+      "selection": "From prediction to action"
+    },
+    {
+      "lesson": 9,
+      "title": "A handoff needs a condition someone can check",
+      "path": "lessons/09-delegation-and-handoffs/README.md",
+      "reading": "chapters/09-delegation-trust-and-the-supervisory-role.md",
+      "selection": "The handoff condition: the contract, not the partition"
+    },
+    {
+      "lesson": 10,
+      "title": "One dataset, two stories",
+      "path": "lessons/10-visualization-under-validation/README.md",
+      "reading": "chapters/10-visualization-under-validation-honest-misleading-and-the-choices-between.md",
+      "selection": "The deceptive visualization catalog"
+    },
+    {
+      "lesson": 11,
+      "title": "Make the sentence no stronger than the evidence",
+      "path": "lessons/11-uncertainty-and-claims/README.md",
+      "reading": "chapters/11-communicating-uncertainty-calibrating-claims-to-evidence.md",
+      "selection": "The verb taxonomy"
+    },
+    {
+      "lesson": 12,
+      "title": "An approval belongs to a particular action",
+      "path": "lessons/12-accountability-and-gates/README.md",
+      "reading": "chapters/12-accountability-who-is-responsible-when-the-system-fails.md",
+      "selection": "The gate: the attestation you sign"
+    },
+    {
+      "lesson": 13,
+      "title": "Try to defeat your own conclusion",
+      "path": "lessons/13-limits-and-replication/README.md",
+      "reading": "chapters/13-the-limits-of-ai-what-the-tools-cannot-do.md",
+      "selection": "What would change my mind"
+    },
+    {
+      "lesson": 14,
+      "title": "Build something worth auditing",
+      "path": "lessons/14-build-and-break-studio/README.md",
+      "reading": "chapters/01-the-skeptics-toolkit.md",
+      "selection": "Skepticism as a team practice"
+    },
+    {
+      "lesson": 15,
+      "title": "Ship a contribution another person can verify",
+      "path": "lessons/15-capstone-and-transfer/README.md",
+      "reading": "chapters/12-accountability-who-is-responsible-when-the-system-fails.md",
+      "selection": "The gate: the attestation you sign"
+    }
+  ],
+  "assignments": [
+    {
+      "assignment": 1,
+      "title": "Claims and calibration",
+      "lessons": [
+        1,
+        2
+      ],
+      "path": "assignments/fall-2026/assignment-01.md",
+      "due": "Canvas"
+    },
+    {
+      "assignment": 2,
+      "title": "Data-frame audit",
+      "lessons": [
+        3
+      ],
+      "path": "assignments/fall-2026/assignment-02.md",
+      "due": "Canvas"
+    },
+    {
+      "assignment": 3,
+      "title": "Robustness and explanation",
+      "lessons": [
+        4,
+        5
+      ],
+      "path": "assignments/fall-2026/assignment-03.md",
+      "due": "Canvas"
+    },
+    {
+      "assignment": 4,
+      "title": "Bias and fairness",
+      "lessons": [
+        6,
+        7
+      ],
+      "path": "assignments/fall-2026/assignment-04.md",
+      "due": "Canvas"
+    },
+    {
+      "assignment": 5,
+      "title": "Agent outcome audit",
+      "lessons": [
+        8
+      ],
+      "path": "assignments/fall-2026/assignment-05.md",
+      "due": "Canvas"
+    },
+    {
+      "assignment": 6,
+      "title": "Delegation contract",
+      "lessons": [
+        9
+      ],
+      "path": "assignments/fall-2026/assignment-06.md",
+      "due": "Canvas"
+    },
+    {
+      "assignment": 7,
+      "title": "Visualization and uncertainty",
+      "lessons": [
+        10,
+        11
+      ],
+      "path": "assignments/fall-2026/assignment-07.md",
+      "due": "Canvas"
+    },
+    {
+      "assignment": 8,
+      "title": "Accountability gate",
+      "lessons": [
+        12
+      ],
+      "path": "assignments/fall-2026/assignment-08.md",
+      "due": "Canvas"
+    },
+    {
+      "assignment": 9,
+      "title": "Build-and-break replication",
+      "lessons": [
+        13,
+        14
+      ],
+      "path": "assignments/fall-2026/assignment-09.md",
+      "due": "Canvas"
+    },
+    {
+      "assignment": 10,
+      "title": "Verified capstone",
+      "lessons": [
+        15
+      ],
+      "path": "assignments/fall-2026/assignment-10.md",
+      "due": "Canvas"
+    }
+  ]
+}
+
