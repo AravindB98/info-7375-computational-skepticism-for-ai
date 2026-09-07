@@ -28,3 +28,34 @@ __pycache__/
 *.pyc
 .env
 .env.*
+
+# NEU continuous film supervisor (generated jobs remain local)
+!/neu-courseloop.sh
+!/neu-courseloop.json
+!/NEU-COURSELOOP.md
+!/NEU-COURSELOOP-PROMPT.md
+/.neu-courseloop/
+/youtube/claude-liam-neu-*/
+
+# Keep generated audio/video out of Git, at any depth and in any case.
+*.[mM][pP]3
+*.[mM][pP]4
+node_modules/
+.venv/
+__pycache__/
+
+# Files over 25 MB (25,000,000 bytes), inventoried for this checkout.
+# Gitignore cannot express size rules; refresh this list for new large files.
+/summer-2026/yangzhiyuan/yangzhiyuan_314949_43026018_capstone-2.zip
+/summer-2026/kappagantulajayanthadithya/kappagantulajayanthadithya_338355_43032636_Final_Project.zip
+/summer-2026/tengzening/tengzening_336215_43032423_7375FinalProject-1.zip
+/summer-2026/bailuraditi/bailuraditi_289290_43029563_Capstone-Project.mov
+/summer-2026/bailuraditi/bailuraditi_289290_43029576_the-reallocation-engine-1.zip
+/summer-2026/_submission-archives/submissions.zip
+/summer-2026/_submission-archives/submissions (2).zip
+/summer-2026/_submission-archives/submissions (1).zip
+/summer-2026/khairnarkomalpravinkumar/khairnarkomalpravinkumar_313802_43032645_Capstone_Komal_Khairnar_Workday-Connector.zip
+/summer-2026/kinishreyashivshankar/kinishreyashivshankar_316629_42961881_GateGuard_FINAL_SUBMISSION_COMPLETE.zip
+/summer-2026/pangranfei/pangranfei_348720_43014690_Ranfei_Evidence_First_Output_Linter_Capstone.mov
+/summer-2026/davidovicmilivoje/davidovicmilivoje_402165_43029709_capstone-davidovic-metro-wage.zip
+/summer-2026/shuklasiddharth/shuklasiddharth_332739_43030765_portfolio-case-study.zip
