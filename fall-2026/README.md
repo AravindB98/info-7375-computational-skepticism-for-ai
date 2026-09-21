@@ -1,4 +1,11 @@
-# Fall 2026 submission location
+# fall-2026
 
-The course uses fall-2026/first-name-last-initial/assignment-XX/ in the instructor-designated GitHub repository, with a matching Canvas upload and final commit hash. This file establishes the naming convention; it does not publish or copy student records. See [posting instructions](../prerequisites/github-submission.md).
+One folder per person in INFO 7375 SEC 08 (Computational Skepticism), Fall 2026: `first-name-last-initial`, kebab case. No IDs and no full names are stored here.
 
+0 students · 0 TA · the instructor's examples in `nik-bear-brown/`.
+
+| folder | role |
+|---|---|
+| `Student/` | bingjie-z |
+| `TA/` | kanishk-s |
+| `nik-bear-brown/` | Teacher |
