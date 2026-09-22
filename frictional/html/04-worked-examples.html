@@ -1,0 +1,140 @@
+<h1 id="worked-examples-a-thin-log-and-a-strong-one">Worked Examples: A Thin Log and a Strong One</h1>
+<p><strong>What this page is.</strong> Two Frictional logs for the same Assignment, scored row by row on the <a href="https://github.com/nikbearbrown/info-7375-computational-skepticism-for-ai/blob/main/prerequisites/frictional.md">official rubric</a>. One earns 2/10. One earns 10/10. Read this page before your first submission — it is the fastest way to see what <em>specific and sufficient</em> means.</p>
+<p><strong>Both students shipped working code.</strong> On the 60 implementation points they would score within a few points of each other. The Frictional gap is 8 points, which is most of a letter grade on the Assignment.</p>
+<blockquote style="border-left:4px solid #8a8a8a;margin:1em 0;padding:0.6em 1em;background:#f7f7f7;">
+<p><strong>These are constructed teaching examples, not real student work.</strong> They were written to illustrate the rubric. No student wrote either one.</p>
+</blockquote>
+<hr style="border:0;border-top:1px solid #d9d9d9;margin:2em 0;" />
+<h2 id="the-assignment-both-students-did">The Assignment both students did</h2>
+<p><a href="https://github.com/nikbearbrown/info-7375-computational-skepticism-for-ai/blob/main/assignments/fall-2026/assignment-01.md">Assignment 1</a> — a Python claim ledger with status validation, plus mean squared probability error with reliability bins and an explicit convention for p=1. Hand check: <code>p=[0.9,0.8,0.4,0.1], y=[1,0,1,0]</code> gives Brier 0.255; constant <code>p=0.5</code> gives 0.25.</p>
+<hr style="border:0;border-top:1px solid #d9d9d9;margin:2em 0;" />
+<h2 id="log-a--210">Log A — 2/10</h2>
+<blockquote style="border-left:4px solid #8a8a8a;margin:1em 0;padding:0.6em 1em;background:#f7f7f7;">
+<p><strong>FRICTIONAL.md</strong></p>
+<p><strong>10/12</strong> — Started the assignment. Read the lesson and set up the repo. Implemented the claim ledger. It was a bit confusing at first but I figured it out.</p>
+<p><strong>10/14</strong> — Did the Brier score part. Used Claude to help with some of the code. Got the tests passing. Calibration was tricky but it works now. Finished the README and pushed everything. Overall I learned a lot about calibration.</p>
+</blockquote>
+<h3 id="scoring">Scoring</h3>
+<table style="border-collapse:collapse;width:100%;margin:1em 0;">
+<thead>
+<tr>
+<th style="border:1px solid #c7c7c7;padding:8px 10px;text-align:left;background:#f2f2f2;vertical-align:top;">Row</th>
+<th style="border:1px solid #c7c7c7;padding:8px 10px;text-align:left;background:#f2f2f2;vertical-align:top;">Score</th>
+<th style="border:1px solid #c7c7c7;padding:8px 10px;text-align:left;background:#f2f2f2;vertical-align:top;">Why</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border:1px solid #c7c7c7;padding:8px 10px;vertical-align:top;">Attempts</td>
+<td style="border:1px solid #c7c7c7;padding:8px 10px;vertical-align:top;">1</td>
+<td style="border:1px solid #c7c7c7;padding:8px 10px;vertical-align:top;">Names activities ("implemented the ledger") but no expectation anywhere. Nothing was predicted, so nothing can have been violated.</td>
+</tr>
+<tr>
+<td style="border:1px solid #c7c7c7;padding:8px 10px;vertical-align:top;">Friction and response</td>
+<td style="border:1px solid #c7c7c7;padding:8px 10px;vertical-align:top;">0</td>
+<td style="border:1px solid #c7c7c7;padding:8px 10px;vertical-align:top;">"A bit confusing," "tricky." These name categories of experience, not experiences. No object, no check, no response.</td>
+</tr>
+<tr>
+<td style="border:1px solid #c7c7c7;padding:8px 10px;vertical-align:top;">Human and AI contributions</td>
+<td style="border:1px solid #c7c7c7;padding:8px 10px;vertical-align:top;">1</td>
+<td style="border:1px solid #c7c7c7;padding:8px 10px;vertical-align:top;">Claude is disclosed — that is honest and it is worth something. But "help with some of the code" does not say what was accepted, changed, or rejected.</td>
+</tr>
+<tr>
+<td style="border:1px solid #c7c7c7;padding:8px 10px;vertical-align:top;">Learning and uncertainty</td>
+<td style="border:1px solid #c7c7c7;padding:8px 10px;vertical-align:top;">0</td>
+<td style="border:1px solid #c7c7c7;padding:8px 10px;vertical-align:top;">"Learned a lot" is content-free and nothing is named as unresolved.</td>
+</tr>
+<tr>
+<td style="border:1px solid #c7c7c7;padding:8px 10px;vertical-align:top;">Traceable process</td>
+<td style="border:1px solid #c7c7c7;padding:8px 10px;vertical-align:top;">0</td>
+<td style="border:1px solid #c7c7c7;padding:8px 10px;vertical-align:top;">Two dates, no commits, no test names, no outputs. Nothing a reviewer can open.</td>
+</tr>
+<tr>
+<td style="border:1px solid #c7c7c7;padding:8px 10px;vertical-align:top;"><strong>Total</strong></td>
+<td style="border:1px solid #c7c7c7;padding:8px 10px;vertical-align:top;"><strong>2</strong></td>
+<td style="border:1px solid #c7c7c7;padding:8px 10px;vertical-align:top;"></td>
+</tr>
+</tbody>
+</table>
+<p><strong>The point of Log A:</strong> this student may have done every bit of the work. That is the problem. They submitted an artifact indistinguishable from a generated one and a log indistinguishable from a generated one. The 2 is not an accusation — it is the honest statement that the evidence does not support more. Every sentence in Log A could have been written by someone who never opened the repository.</p>
+<hr style="border:0;border-top:1px solid #d9d9d9;margin:2em 0;" />
+<h2 id="log-b--1010">Log B — 10/10</h2>
+<blockquote style="border-left:4px solid #8a8a8a;margin:1em 0;padding:0.6em 1em;background:#f7f7f7;">
+<p><strong>FRICTIONAL.md</strong></p>
+<p><strong>10/12</strong> — <em>What I tried and expected:</em> Built the ledger schema first. Expected the duplicate-ID rejection to be the fiddly part.
+<em>What happened / what I checked:</em> It wasn't. The hard part was <code>status: supported</code>. My first version let the caller set it directly, which means a fluent-sounding claim can be marked supported with no source. That is exactly the failure the lesson is about and I had written it into my own schema.
+<em>What I did next:</em> Made <code>supported</code> unreachable except through a path that requires a non-empty <code>source_path</code> plus an <code>observation</code>. Missing source now yields <code>unresolved</code>, never <code>supported</code>.
+<em>Contributions:</em> Mine. Claude not used yet.
+<em>Understand / do not understand:</em> Understand that the validation has to make the bad state unrepresentable rather than merely discouraged. Do not yet know whether <code>unresolved</code> and <code>contradicted</code> need to be distinguishable when the source is missing entirely.
+<em>Evidence:</em> <code>test_missing_source_yields_unresolved</code>; commit <code>feat: make supported unreachable without source evidence</code>. Next: the Brier work.</p>
+<p><strong>10/14</strong> — <em>Tried and expected:</em> Implemented MSPE, then ran the hand check from PREDICTIONS.md. Predicted the informative vector (0.9/0.8/0.4/0.1) would beat constant 0.5, because it is obviously carrying more information.
+<em>What happened:</em> It loses. 0.255 against 0.250. I re-ran it three times assuming an arithmetic error, then did the four rows by hand on paper. The hand calculation agrees. The prediction was wrong.
+<em>What I did next:</em> Sat with it. The 0.8-on-a-0 row contributes 0.64 by itself, which is more than the entire constant predictor's average. One confident miss outweighs three good calls. I had assumed "more informative" implied "better scored" and those are different properties.
+<em>Contributions:</em> Mine, including the hand check.
+<em>Understand / do not understand:</em> Understand that a proper scoring rule punishes confident errors superlinearly, and that a baseline beating you is information about your confidence, not only about your accuracy. Do not understand how I would have caught this if the assignment had not handed me the baseline — I do not know how to pick a baseline in general.
+<em>Evidence:</em> <code>test_brier_matches_hand_calculation</code> (0.255); photo of the paper check in <code>evidence/hand-check-1014.jpg</code>; commit <code>test: pin hand-verified Brier against constant baseline</code>. Next: reliability bins.</p>
+<p><strong>10/15</strong> — <em>Tried and expected:</em> Reliability bins, ten of them. Expected counts to sum to the row count.
+<em>What happened:</em> They sum to 39 of 40. One row is disappearing. p=1.0 falls outside every bin because all ten are half-open under my <code>&lt;</code> comparison.
+<em>What I did next:</em> Asked Claude why a bin count could come up short. It gave three candidate causes; the half-open-interval one matched. It then proposed special-casing p=1.0 into the last bin. <strong>I rejected that fix</strong> — it puts the convention in two places, and the next person to read the code would not find it. Instead I made the final bin closed on the right and stated the convention in the README as a claim about the data rather than an implementation detail. Claude located the cause; the design decision is mine.
+<em>Contributions:</em> Claude — diagnosis accepted, proposed fix rejected, replacement written by me. Transcript in <code>evidence/claude-bins-1015.md</code>.
+<em>Understand / do not understand:</em> Understand that a binning convention is an assertion that has to be declared. Still do not understand how to choose ten bins over five — I used ten because the lesson did, and I cannot defend it. Noted as a limit in VERIFICATION.md.
+<em>Evidence:</em> <code>test_reliability_bin_endpoint</code>; commit <code>fix: close final reliability bin so p=1.0 is counted</code>.</p>
+<p><strong>10/16 (retrospective, written 10-17)</strong> — <em>Tried and expected:</em> Final pass; expected only README edits.
+<em>What happened:</em> Re-reading the ledger with the Brier result in mind, I noticed my <code>remaining_uncertainty</code> field is free text nobody validates, which is the same weakness as the original <code>supported</code> problem in a quieter form. Out of scope to fix now.
+<em>What I did next:</em> Left it, and named it in VERIFICATION.md as a known limit rather than pretending it isn't there.
+<em>Contributions:</em> Mine.
+<em>Understand / do not understand:</em> Understand that the schema encodes an epistemics, and unvalidated fields are where unsupported claims re-enter. Do not know whether validating free text is possible without making the field useless.
+<em>Evidence:</em> VERIFICATION.md limits section; commit <code>docs: record unvalidated uncertainty field as known limit</code>.</p>
+</blockquote>
+<h3 id="scoring-1">Scoring</h3>
+<table style="border-collapse:collapse;width:100%;margin:1em 0;">
+<thead>
+<tr>
+<th style="border:1px solid #c7c7c7;padding:8px 10px;text-align:left;background:#f2f2f2;vertical-align:top;">Row</th>
+<th style="border:1px solid #c7c7c7;padding:8px 10px;text-align:left;background:#f2f2f2;vertical-align:top;">Score</th>
+<th style="border:1px solid #c7c7c7;padding:8px 10px;text-align:left;background:#f2f2f2;vertical-align:top;">Why</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border:1px solid #c7c7c7;padding:8px 10px;vertical-align:top;">Attempts</td>
+<td style="border:1px solid #c7c7c7;padding:8px 10px;vertical-align:top;">2</td>
+<td style="border:1px solid #c7c7c7;padding:8px 10px;vertical-align:top;">Every entry states what was tried and what was expected. The 10/14 prediction is specific enough to be <em>wrong</em>, which is what makes it worth 2.</td>
+</tr>
+<tr>
+<td style="border:1px solid #c7c7c7;padding:8px 10px;vertical-align:top;">Friction and response</td>
+<td style="border:1px solid #c7c7c7;padding:8px 10px;vertical-align:top;">2</td>
+<td style="border:1px solid #c7c7c7;padding:8px 10px;vertical-align:top;">Four specific frictions, each anchored to an object — the <code>supported</code> path, 0.255 vs 0.250, 39 of 40, the free-text field — each with what was done next, including one thing left undone and declared.</td>
+</tr>
+<tr>
+<td style="border:1px solid #c7c7c7;padding:8px 10px;vertical-align:top;">Human and AI contributions</td>
+<td style="border:1px solid #c7c7c7;padding:8px 10px;vertical-align:top;">2</td>
+<td style="border:1px solid #c7c7c7;padding:8px 10px;vertical-align:top;">Claude's contribution is bounded precisely: diagnosis accepted, fix rejected, replacement written by the student, transcript preserved. The three entries with no AI use say so.</td>
+</tr>
+<tr>
+<td style="border:1px solid #c7c7c7;padding:8px 10px;vertical-align:top;">Learning and uncertainty</td>
+<td style="border:1px solid #c7c7c7;padding:8px 10px;vertical-align:top;">2</td>
+<td style="border:1px solid #c7c7c7;padding:8px 10px;vertical-align:top;">Something changed in every entry, and every entry names something still open. The 10/14 "I don't know how to pick a baseline in general" is the strongest line in the log.</td>
+</tr>
+<tr>
+<td style="border:1px solid #c7c7c7;padding:8px 10px;vertical-align:top;">Traceable process</td>
+<td style="border:1px solid #c7c7c7;padding:8px 10px;vertical-align:top;">2</td>
+<td style="border:1px solid #c7c7c7;padding:8px 10px;vertical-align:top;">Every entry cites a test, a commit subject, or a file. The retrospective entry is marked.</td>
+</tr>
+<tr>
+<td style="border:1px solid #c7c7c7;padding:8px 10px;vertical-align:top;"><strong>Total</strong></td>
+<td style="border:1px solid #c7c7c7;padding:8px 10px;vertical-align:top;"><strong>10</strong></td>
+<td style="border:1px solid #c7c7c7;padding:8px 10px;vertical-align:top;"></td>
+</tr>
+</tbody>
+</table>
+<hr style="border:0;border-top:1px solid #d9d9d9;margin:2em 0;" />
+<h2 id="what-actually-separates-them">What actually separates them</h2>
+<p>Log B is not longer because the student worked harder or wrote better. It took roughly twelve minutes across four sessions. It is longer because it is <strong>anchored</strong>: every claim points at a specific object in the actual work.</p>
+<p>Three moves do nearly all of the work, and you can copy all three:</p>
+<ol type="1">
+<li><strong>Write the expectation before the run.</strong> You cannot record a violated prediction if you never recorded a prediction. This is the same discipline PREDICTIONS.md already asks of you.</li>
+<li><strong>Name the object, not the category.</strong> Not "the calibration part" — <code>0.255 against 0.250</code>, <code>39 of 40</code>, <code>test_reliability_bin_endpoint</code>.</li>
+<li><strong>Say what you did with the help.</strong> Accepted, changed, or rejected. Log B's highest-value entry is the one where Claude was <em>wrong for a reason the student could articulate</em>.</li>
+</ol>
+<p>Before you submit, take any sentence in your log and ask whether a classmate who never opened your repository could have written it. If they could, you have written about the Assignment. Write about what happened instead.</p>

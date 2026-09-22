@@ -14,6 +14,18 @@
 !/docs/
 !/scripts/
 !/chapters/
+!/frictional/
+# Chapter 1 illustration assets only; unrelated images remain local.
+!/images/
+/images/*
+!/images/01-the-skeptics-toolkit-fig-0[1-8].svg
+!/images/01-the-skeptics-toolkit-fig-0[1-8].png
+!/images/01-the-skeptics-toolkit-fig-0[1-8].svg.verified.json
+!/images/01-the-skeptics-toolkit-fig-0[1-8].png.verified.json
+!/images/karl-popper.jpg
+!/images/karl-popper.jpg.verified.json
+!/images/01-figures-Inter-OFL.txt
+!/images/01-figures-EB-Garamond-OFL.txt
 !/assignments/
 /assignments/*
 !/assignments/fall-2026/
